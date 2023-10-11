@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: initial;
+    border-left: solid red 3px;
+    border-bottom: solid rgb(57, 57, 57) 1px;
+    margin: 2em;
+    padding-left:0.4em ;
+    padding-bottom:0.2em ;
+    padding-top:0.2em ;
+}
+
+.div-seriesAnimes{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.card{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+img{
+    position: relative;     
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 2em;
+    width: 270px;
+    height: 500px;
+    transition: .5%;
+    cursor: pointer;
+}
+
+img:hover{
+    scale: 1.1;
+    border: solid 1px red;
+    transition: .5%;
+    opacity: 70%;
+    
+}
+
